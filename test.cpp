@@ -34,10 +34,16 @@ while (x<16)
     x++;
 }
 const int a=5;
-int array[a]={0,22,32,34,43};*/
+int array[a]={0,22,32,34,43};
 
 const int n=241;
 constexpr n2=n;
-cout << n2;
-
+cout << n2;*/
+ 
+ int array[5]={11,22,33,44,55};
+ for (int i = 0; i < 5; i++)
+ {
+     cout <<"array["<<i<<"]="<<array[i]<< endl;
+ }
+ 
 }
