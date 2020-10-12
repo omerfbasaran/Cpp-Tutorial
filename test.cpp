@@ -24,11 +24,15 @@ default:
     break;
 }*/
 
-for (auto i = 0; i < 21; i++)
+/*for (auto i = 0; i < 21; i++)
 {
     cout << "sayac="<<i<<endl;
-}
+}*/
 
+while (x<16)
+{
+    cout << "Sayac = "<<x<<endl;
+}
 
 
 
