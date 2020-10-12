@@ -9,7 +9,7 @@ int main ()
     cout<<"x 15'den kucuk veya esit ve a true";*/
 
 ////////////////////////////////////////////////
-int x=1;
+/*int x=1;
 switch (x)
 {
 case 1:
@@ -22,6 +22,15 @@ case 3:
     cout << "x="<<x;
 default:
     break;
+}*/
+
+for (auto i = 0; i < 21; i++)
+{
+    cout << "sayac="<<i<<endl;
 }
+
+
+
+
 
 }
