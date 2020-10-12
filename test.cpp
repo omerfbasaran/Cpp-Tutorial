@@ -27,7 +27,7 @@ default:
 {
     cout << "sayac="<<i<<endl;
 }*/
-
+int x=0;
 while (x<16)
 {
     cout << "Sayac = "<<x<<endl;
