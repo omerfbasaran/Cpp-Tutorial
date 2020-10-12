@@ -27,13 +27,14 @@ default:
 {
     cout << "sayac="<<i<<endl;
 }*/
-int x=0;
+/*int x=0;
 while (x<16)
 {
     cout << "Sayac = "<<x<<endl;
-    x=x+1;
-}
-
+    x++;
+}*/
+const int a=5;
+int array[a]={0,22,32,34,43};
 
 
 
