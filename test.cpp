@@ -13,16 +13,13 @@ int x=1;
 switch (x)
 {
 case 1:
-    cout << "x= "<<x;
-    x++;
-    break;
+    cout << "x="<<x<< endl;
+    x=x+1;
 case 2:
-    cout << "x= "<<x;
-    x++;
-    break;
+    cout << "x="<<x<< endl;
+    x=x+1;
 case 3:
-    cout << "x= "<<x;
-    break;
+    cout << "x="<<x;
 default:
     break;
 }
