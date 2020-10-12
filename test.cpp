@@ -8,6 +8,6 @@ int main ()
     if (x<=15 && a)
     cout<<"x 15'den kucuk veya esit ve a true";
 
-    //test_3
+    //test_4
 
 }
