@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+using namespace std;
 int division(int x, int y)
 {
  return x / y;
@@ -10,6 +11,13 @@ double division(double x, double y)
 }
 int main()
 {
- std::cout << "Int division: " << division(81, 9) << '\n';
- std::cout << "Double division: " << division(82.0, 9.0);
+ cout << "Int division: " << division(81, 9) << '\n';
+ cout << "Double division: " << division(82.0, 2.0)<<endl;
+
+ /////////////////////////////////////////////////////////
+
+ int* p=new int;
+ *p=123;
+ cout<<"p is "<<*p;
+ delete p;
 }
