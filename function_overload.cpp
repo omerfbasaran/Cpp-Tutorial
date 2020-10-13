@@ -10,6 +10,6 @@ double division(double x, double y)
 }
 int main()
 {
- std::cout << "Integer division: " << division(9, 2) << '\n';
- std::cout << "Floating point division: " << division(9.0, 2.0);
+ std::cout << "Int division: " << division(81, 9) << '\n';
+ std::cout << "Double division: " << division(82.0, 9.0);
 }
